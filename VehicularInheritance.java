@@ -1,7 +1,10 @@
 import java.util.*;
 
 public class VehicularInheritance{
-
+   
+/*DUDEEEEEEEEEEE, IF YOU ARE READING THIS, MAKE SURE YOU HAVE DOWNLOADED
+THE VEHICLE, CAR, AND MOTORCYCLE JAVA FILES OR TS WILL NOT WORK!!!!!!!!!!*/
+   
    public static void main(String [] args){
       //user input modification, for funsies.
    
