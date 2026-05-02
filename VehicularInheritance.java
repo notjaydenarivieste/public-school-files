@@ -31,6 +31,8 @@ THE VEHICLE, CAR, AND MOTORCYCLE JAVA FILES OR TS WILL NOT WORK!!!!!!!!!!*/
       like, instead of Motorcycle(x), do Motorcycle("Yamaha")... thank you!!!!
 
       and do the same to the other files, instead of Car(brand) just do Car("Mercedes").
+
+      i think thats how it works? i actually dont know how to do it without using user input...
       
       -J*/
    }
