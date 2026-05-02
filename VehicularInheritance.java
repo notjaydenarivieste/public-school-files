@@ -29,6 +29,8 @@ THE VEHICLE, CAR, AND MOTORCYCLE JAVA FILES OR TS WILL NOT WORK!!!!!!!!!!*/
       of the constructor in this file, pleaseeeeeee
       
       like, instead of Motorcycle(x), do Motorcycle("Yamaha")... thank you!!!!
+
+      and do the same to the other files, instead of Car(brand) just do Car("Mercedes").
       
       -J*/
    }
