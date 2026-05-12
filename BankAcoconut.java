@@ -13,10 +13,10 @@ public class BankAcoconut{
       System.out.println("Welcome to Bank of Bikini Bottom Bank!");
       System.out.println("");
       
-      SavingsAccount s1 = new SavingsAccount();
+      SavingsAccount s1 = new SavingsAccount(); //no-parameter constructor!!! now money is initialized!!! this is important for the value saving feature.
       CurrentAccount c1 = new CurrentAccount();
       
-      while (ch != 3){
+      while (ch != 3){ //lowk basic while loop and switch case stuff
          System.out.println(s1);
          System.out.println(c1);
          System.out.println("Select Service: 1 = Deposit || 2 = Withdraw || 3 = Exit");
@@ -33,10 +33,10 @@ public class BankAcoconut{
                switch(ch2){     
                   case 1: //DEPOSIT TIME!!!!!!!!!!!!!!!!!!!!!! TO SAVINGS!@@@@@@!@!@11122
                   
-                     System.out.println("Input Savings Account Deposit: ");
+                     System.out.println("Input Savings Account Deposit Amount: ");
                      dep = bato.nextFloat();
-                     s1.dep = dep;
-                     s1.deposit();
+                     s1.dep = dep; //this is here pass your deposit value.
+                     s1.deposit(); //does the deposit method, and stuff...
                      
                      System.out.println("Continue another transaction? 1 = Y || 3 = N");
                      ch = bato.nextInt();
@@ -46,7 +46,7 @@ public class BankAcoconut{
                   
                   case 2: //TNERRUC OT !!!!!!!!!!!!!!!!!!!!!!!!!!! ENIT TUSOPED!!!!!!!!!!!!!!
                   
-                     System.out.println("Input Current Account Deposit: ");
+                     System.out.println("Input Current Account Deposit Amount: ");
                      dep = bato.nextFloat();
                      
                      c1.dep = dep;
@@ -79,7 +79,8 @@ public class BankAcoconut{
                   
                      System.out.println("Input Savings Account Withdrawal Amount: ");
                      with = bato.nextDouble();
-                     s1.with = with;
+                     
+                     s1.with = with; //this is here to also deposit your withdrawal value.
                      s1.withdraw();
                      
                      System.out.println("Continue another transaction? 1 = Y || 3 = N");
