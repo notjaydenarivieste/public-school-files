@@ -15,7 +15,7 @@ public class BankAcoconut{
       
       SavingsAccount s1 = new SavingsAccount(); //no-parameter constructor!!! now money is initialized!!! this is important for the value saving feature.
       CurrentAccount c1 = new CurrentAccount();
-      
+      //while loop is here basically repeat the switch case over and over and over again until the user inputs the number "3"
       while (ch != 3){ //lowk basic while loop and switch case stuff
          System.out.println(s1);
          System.out.println(c1);
